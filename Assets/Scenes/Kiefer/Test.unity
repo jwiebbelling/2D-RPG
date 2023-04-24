@@ -912,9 +912,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 669340690}
         m_TargetAssemblyTypeName: SliderApplySound, Assembly-CSharp
-        m_MethodName: SetSound
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -938,10 +938,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 669340689}
   audioSource:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 433641799}
+  - {fileID: 540542475}
   SFX: 0
-  Master: 0
+  Master: 1
   Music: 0
   SFXNumber: 0
   data: {fileID: 11400000, guid: ffd552b938b378c489e9ed75b6d06018, type: 2}
@@ -1187,9 +1187,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 978083182}
         m_TargetAssemblyTypeName: SliderApplySound, Assembly-CSharp
-        m_MethodName: SetSound
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1213,10 +1213,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 978083181}
   audioSource:
-  - {fileID: 0}
+  - {fileID: 433641799}
   SFX: 0
   Master: 0
-  Music: 0
+  Music: 1
   SFXNumber: 0
   data: {fileID: 11400000, guid: ffd552b938b378c489e9ed75b6d06018, type: 2}
 --- !u!1 &1006439559
@@ -1915,9 +1915,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1950751256}
         m_TargetAssemblyTypeName: SliderApplySound, Assembly-CSharp
-        m_MethodName: SetSound
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1941,8 +1941,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 1950751255}
   audioSource:
-  - {fileID: 0}
-  SFX: 0
+  - {fileID: 540542475}
+  SFX: 1
   Master: 0
   Music: 0
   SFXNumber: 0
