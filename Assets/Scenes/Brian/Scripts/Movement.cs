@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    public KeybindsData Data;
     [SerializeField] KeyCode up = KeyCode.W;
     [SerializeField] KeyCode down = KeyCode.S;
     [SerializeField] KeyCode left = KeyCode.A;
@@ -23,12 +24,12 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(up) && Input.GetKey(down) == false)
+        if (Input.GetKey(Data.Up) && Input.GetKey(Data.Down) == false)
         {
             ySpeed = speed;
             xMult = 0.7f;
         }
-        else if (Input.GetKey(down) && Input.GetKey(up) == false)
+        else if (Input.GetKey(Data.Down) && Input.GetKey(Data.Up) == false)
         {
             ySpeed = 0 - speed;
             xMult = 0.7f;
@@ -40,12 +41,12 @@ public class Movement : MonoBehaviour
             //rb.velocity = new Vector2(rb.velocity.x, 0); //this stops it from working
         }
 
-        if (Input.GetKey(right) && Input.GetKey(left) == false)
+        if (Input.GetKey(Data.Right) && Input.GetKey(Data.Left) == false)
         {
             xSpeed = speed;
             yMult = 0.7f;
         }
-        else if (Input.GetKey(left) && Input.GetKey(right) == false)
+        else if (Input.GetKey(Data.Left) && Input.GetKey(Data.Right) == false)
         {
             xSpeed = 0 - speed;
             yMult = 0.7f;

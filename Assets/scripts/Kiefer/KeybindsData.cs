@@ -5,10 +5,10 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "KeybindsData")]
 public class KeybindsData : ScriptableObject
 {
-    public KeyCode MoveW;
-    public KeyCode MoveA;
-    public KeyCode MoveS;
-    public KeyCode MoveD;
+    public KeyCode Up;
+    public KeyCode Left;
+    public KeyCode Down;
+    public KeyCode Right;
 
     public KeyCode Shoot;
     public KeyCode Reload;
