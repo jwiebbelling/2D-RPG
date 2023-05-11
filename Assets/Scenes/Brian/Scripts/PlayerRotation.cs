@@ -5,8 +5,6 @@ using UnityEngine;
 public class PlayerRotation : MonoBehaviour
 {
     Vector2 mousePosition;
-
-    [SerializeField] GameObject player;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,9 +26,5 @@ public class PlayerRotation : MonoBehaviour
 
         // set vector of transform directly
         transform.up = direction;
-
-
-        Debug.Log(mousePosition.x);
-        Debug.Log(mousePosition.y);
     }
 }

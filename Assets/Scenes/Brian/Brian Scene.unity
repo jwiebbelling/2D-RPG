@@ -321,7 +321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29f2bb99d44e45f40a0214bf22045981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
 --- !u!1 &1328472152
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,6 +415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1470212211}
   - component: {fileID: 1470212213}
+  - component: {fileID: 1470212214}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Untagged
@@ -490,6 +490,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1470212214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470212210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88514f3e0128e6c40bd7c3b44dfd6b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  attackSpeed: 1
+  maxAmmo: 7
+  reloadTime: 5
+  fullAuto: 0
 --- !u!1 &1474218322
 GameObject:
   m_ObjectHideFlags: 0
