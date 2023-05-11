@@ -9,8 +9,10 @@ public class KeybindsData : ScriptableObject
     public KeyCode Left;
     public KeyCode Down;
     public KeyCode Right;
+    public KeyCode Dash;
 
     public KeyCode Shoot;
     public KeyCode Reload;
     public KeyCode Interact;
+    public KeyCode UsePowerUp;
 }
