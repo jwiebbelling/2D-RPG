@@ -23,12 +23,12 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(up))
+        if (Input.GetKey(up) && Input.GetKey(down) == false)
         {
             ySpeed = speed;
             xMult = 0.7f;
         }
-        else if (Input.GetKey(down))
+        else if (Input.GetKey(down) && Input.GetKey(up) == false)
         {
             ySpeed = 0 - speed;
             xMult = 0.7f;
@@ -40,12 +40,12 @@ public class Movement : MonoBehaviour
             //rb.velocity = new Vector2(rb.velocity.x, 0); //this stops it from working
         }
 
-        if (Input.GetKey(right))
+        if (Input.GetKey(right) && Input.GetKey(left) == false)
         {
             xSpeed = speed;
             yMult = 0.7f;
         }
-        else if (Input.GetKey(left))
+        else if (Input.GetKey(left) && Input.GetKey(right) == false)
         {
             xSpeed = 0 - speed;
             yMult = 0.7f;
