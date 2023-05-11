@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16a5fbc50482e4d4c9f545b686239b5e, type: 3}
   m_Name: DefaultKeyBindsData
   m_EditorClassIdentifier: 
-  MoveW: 0
-  MoveA: 0
-  MoveS: 0
-  MoveD: 0
-  Dash: 0
-  Shoot: 0
-  Reload: 0
-  Interact: 0
-  UsePowerUp: 0
+  Up: 119
+  Left: 97
+  Down: 115
+  Right: 100
+  Dash: 304
+  Shoot: 323
+  Reload: 114
+  Interact: 101
+  UsePowerUp: 32

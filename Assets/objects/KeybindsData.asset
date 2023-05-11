@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16a5fbc50482e4d4c9f545b686239b5e, type: 3}
   m_Name: KeybindsData
   m_EditorClassIdentifier: 
-  MoveW: 119
-  MoveA: 97
-  MoveS: 115
-  MoveD: 100
+  Up: 119
+  Left: 97
+  Down: 115
+  Right: 100
+  Dash: 304
   Shoot: 323
   Reload: 114
   Interact: 101
+  UsePowerUp: 32
