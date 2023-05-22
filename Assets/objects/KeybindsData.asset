@@ -9,15 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1d5884463991a547841137bcf1ec659, type: 3}
+  m_Script: {fileID: 0}
   m_Name: KeybindsData
   m_EditorClassIdentifier: 
-  Up: 119
-  Left: 97
-  Down: 115
-  Right: 100
-  Dash: 304
-  Shoot: 323
-  Reload: 114
-  Interact: 101
-  UsePowerUp: 32
