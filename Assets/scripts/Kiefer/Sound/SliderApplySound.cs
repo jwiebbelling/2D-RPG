@@ -7,6 +7,7 @@ public class SliderApplySound : MonoBehaviour
     [SerializeField] GameObject[] audioSource;
     [SerializeField] bool SFX, Master, Music;
     [SerializeField] int SFXNumber; //0 = music
+    [SerializeField] Text text;
 
     public AudioData data;
     void Awake()
@@ -27,7 +28,8 @@ public class SliderApplySound : MonoBehaviour
 
     void Update()
     {
-        
+        EditTXTValue((int)Mathf.Round(slider.value * 100));
+
         if (SFX && !Master && !Music)
         {
             data.SFXVolume = slider.value;
@@ -42,10 +44,14 @@ public class SliderApplySound : MonoBehaviour
             data.musicVolume = slider.value;
             EditSound();
         }
-        
     }
     void EditSound()
     {
         audioSource[SFXNumber].GetComponent<ApplySound>().EditVolume();
+    }
+
+    void EditTXTValue(int value)
+    {
+        text.text = value.ToString() + " %";
     }
 }
