@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1d5884463991a547841137bcf1ec659, type: 3}
+  m_Script: {fileID: 11500000, guid: 16a5fbc50482e4d4c9f545b686239b5e, type: 3}
   m_Name: DefaultKeyBindsData
   m_EditorClassIdentifier: 
   Up: 119
