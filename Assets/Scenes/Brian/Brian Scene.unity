@@ -366,8 +366,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4163699369807430615, guid: 9dfcfaeaa236b6849b636e18becb5c29,
         type: 3}
-      propertyPath: spareAmmo
-      value: 10
+      propertyPath: attackSpeed
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dfcfaeaa236b6849b636e18becb5c29, type: 3}
