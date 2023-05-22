@@ -10,8 +10,9 @@ public class WeaponScript : MonoBehaviour
     [SerializeField] int spareAmmo = 7;
     [SerializeField] float reloadTime = 5;
     [SerializeField] bool fullAuto = false;
-    int Ammo = 7;
+    int ammo = 7;
     bool canShoot = true;
+    bool currentlyReloading = false;
 
     float reloadingTimer;
     // Start is called before the first frame update
@@ -35,7 +36,7 @@ public class WeaponScript : MonoBehaviour
             }
             Debug.Log("try shot");
 
-            if (Ammo <= 0)
+            if (ammo <= 0)
             {
                 Debug.Log("EmptyMag");
             }
@@ -44,22 +45,52 @@ public class WeaponScript : MonoBehaviour
                 FireBullet();
             }
 
-            Debug.Log(Ammo);
+            Debug.Log(ammo);
         }
         else if (!Input.GetKey(Data.Shoot))
         {
             canShoot = true;
         }
-
-        if (Input.GetKey(Data.Reload))
+        if (spareAmmo > 0)
         {
-            Ammo = maxAmmo;
-            Debug.Log("Reloading");
+            if (Input.GetKey(Data.Reload) && currentlyReloading == false)
+            {
+                currentlyReloading = true;
+                Debug.Log("Reloading");
+                reloadingTimer = reloadTime;
+            }
+            else if (reloadingTimer <= 0 && currentlyReloading == true)
+            {
+                currentlyReloading = false;
+
+                AmmoReloading();
+
+                Debug.Log("Done Reloading");
+            }
         }
+        if (reloadingTimer > 0)
+        {
+            reloadingTimer = reloadingTimer - 1 * Time.deltaTime;
+        }
+
+        //Debug.Log(reloadingTimer + " RelTime Remaining");
     }
     void FireBullet()
     {
-        Ammo = Ammo - 1;
+        ammo = ammo - 1;
         Debug.Log("actual shot");
+    }
+    void AmmoReloading()
+    {
+        if (ammo + spareAmmo > maxAmmo)
+        {
+            spareAmmo = spareAmmo - maxAmmo;
+            ammo = ammo + maxAmmo;
+        }
+        else
+        {
+            ammo = ammo + spareAmmo;
+            spareAmmo = spareAmmo - spareAmmo;
+        }
     }
 }
