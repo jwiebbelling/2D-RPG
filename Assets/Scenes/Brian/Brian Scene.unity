@@ -506,7 +506,7 @@ MonoBehaviour:
   attackSpeed: 1
   maxAmmo: 7
   reloadTime: 5
-  fullAuto: 0
+  fullAuto: 1
 --- !u!1 &1474218322
 GameObject:
   m_ObjectHideFlags: 0
