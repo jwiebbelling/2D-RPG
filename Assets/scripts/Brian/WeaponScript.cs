@@ -10,7 +10,7 @@ public class WeaponScript : MonoBehaviour
     [SerializeField] int spareAmmo = 7;
     [SerializeField] float reloadTime = 5;
     [SerializeField] bool fullAuto = false;
-    int ammo = 7;
+    int ammo;
     bool canShoot = true;
     bool currentlyReloading = false;
 
@@ -20,7 +20,7 @@ public class WeaponScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        ammo = maxAmmo;
     }
 
     // Update is called once per frame

@@ -361,8 +361,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4163699369807430615, guid: 9dfcfaeaa236b6849b636e18becb5c29,
         type: 3}
+      propertyPath: maxAmmo
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163699369807430615, guid: 9dfcfaeaa236b6849b636e18becb5c29,
+        type: 3}
       propertyPath: fullAuto
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4163699369807430615, guid: 9dfcfaeaa236b6849b636e18becb5c29,
+        type: 3}
+      propertyPath: spareAmmo
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4163699369807430615, guid: 9dfcfaeaa236b6849b636e18becb5c29,
         type: 3}
