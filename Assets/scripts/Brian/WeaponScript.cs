@@ -10,6 +10,7 @@ public class WeaponScript : MonoBehaviour
     [SerializeField] int spareAmmo = 7;
     [SerializeField] float reloadTime = 5;
     [SerializeField] bool fullAuto = false;
+    [SerializeField] GameObject bullet;
     int ammo;
     bool canShoot = true;
     bool currentlyReloading = false;
