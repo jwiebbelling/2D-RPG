@@ -20,10 +20,10 @@ public class InputManager : MonoBehaviour
         }
         DontDestroyOnLoad(this);
     }
-
+    /*
     public bool KeyDown(string key)
     {
-        if (Input.GetKeyDown(Data.NewKey(key)))
+        if (Input.GetKeyDown(Data.GetKeyCode(key)))
         {
             return true;
         }
@@ -31,5 +31,5 @@ public class InputManager : MonoBehaviour
         {
             return false;
         }
-    }
+    }*/
 }

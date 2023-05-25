@@ -406,7 +406,7 @@ GameObject:
   - component: {fileID: 221383082}
   - component: {fileID: 221383081}
   m_Layer: 0
-  m_Name: Text (Legacy)
+  m_Name: KeyBindText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1826,12 +1826,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1213448092}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bad3ee24153a99c4eacc163d9eddee1c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 0}
-  keybinds: {fileID: 0}
-  key: 
+  text: {fileID: 1281093630}
+  keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  keybind: 
 --- !u!1 &1281093628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1844,7 +1844,7 @@ GameObject:
   - component: {fileID: 1281093631}
   - component: {fileID: 1281093630}
   m_Layer: 0
-  m_Name: Text (Legacy)
+  m_Name: ButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2894,6 +2894,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input: {fileID: 1701656503}
+  keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  keybind: 
 --- !u!1 &1786200170
 GameObject:
   m_ObjectHideFlags: 0
