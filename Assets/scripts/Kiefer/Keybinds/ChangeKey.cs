@@ -53,6 +53,6 @@ public class ChangeKey : MonoBehaviour
 
     public void OnButonPress()
     {
-        GetKeyInput
+        //GetKeyInput
     }
 }
