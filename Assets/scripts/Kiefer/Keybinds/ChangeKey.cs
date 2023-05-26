@@ -7,16 +7,16 @@ public class ChangeKey : MonoBehaviour
 {
     [SerializeField] Text text;
     [SerializeField] KeybindsData keybinds;
-    [SerializeField] string key;
+    [SerializeField] string keybind;
 
     void Update()
     {
-        ChangeText(key);
+        ChangeText(keybind);
     }
     
-    void ChangeText(string key)
+    void ChangeText(string keybind)
     {
-        switch (key)
+        switch (keybind)
         {
             case "Up":
                 text.text = keybinds.Up.ToString();

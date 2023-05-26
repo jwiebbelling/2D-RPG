@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "KeybindsData")]
@@ -16,37 +14,37 @@ public class KeybindsData : ScriptableObject
     public KeyCode Interact;
     public KeyCode UsePowerUp;
 
-    public KeyCode NewKey(string key)
+    public KeyCode SetNewKey(string keybind, KeyCode key)
     {
-        key.ToLower();
-        switch (key)
+        keybind.ToLower();
+        switch (keybind)
         {
             case "up":
-                return Up;
+                return Up = key;
 
             case "left":
-                return Left;
+                return Left = key;
 
             case "down":
-                return Down;
+                return Down = key;
 
             case "right":
-                return Right;
+                return Right = key;
 
             case "dash":
-                return Dash;
+                return Dash = key;
 
             case "shoot":
-                return Shoot;
+                return Shoot = key;
 
             case "reload":
-                return Reload;
+                return Reload = key;
 
             case "interact":
-                return Interact;
+                return Interact = key;
 
             case "usepowerup":
-                return UsePowerUp;
+                return UsePowerUp = key;
 
             default:
                 return KeyCode.None;
