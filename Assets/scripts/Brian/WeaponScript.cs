@@ -27,6 +27,7 @@ public class WeaponScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log(transform.rotation.x + "  = X and " + transform.rotation.y + "  = Y and " + transform.rotation.z + "  = Z And" + transform.rotation.w + "  = W");
         if (Input.GetKey(Data.Shoot) && canShoot && !currentlyReloading)
         {
             if (attackTimer <= 0)
@@ -88,7 +89,10 @@ public class WeaponScript : MonoBehaviour
     void FireBullet()
     {
         ammo = ammo - 1;
+        GameObject spawnedBullet = Instantiate(bullet, new Vector2(gameObject.transform.position.x, gameObject.transform.position.y), Quaternion.identity);
+        spawnedBullet.GetComponent<BulletScript>().setDir(gameObject.GetComponentInParent<PlayerRotation>().getDir());
         Debug.Log("actual shot");
+        
     }
     void AmmoReloading()
     {
