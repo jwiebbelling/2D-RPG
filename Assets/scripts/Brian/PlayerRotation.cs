@@ -27,7 +27,7 @@ public class PlayerRotation : MonoBehaviour
 
         // set vector of transform directly
         transform.up = direction;
-        Debug.Log(direction);
+        //Debug.Log(direction);
     }
     public Vector2 getDir()
     {

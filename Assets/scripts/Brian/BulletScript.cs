@@ -7,10 +7,12 @@ public class BulletScript : MonoBehaviour
     public Vector2 startDir = new Vector2(3, 0);
     private Transform newTransform;
     [SerializeField] float bulletSpeed = 5;
+    [SerializeField] float lifeTime = 5;
 
     // Start is called before the first frame update
     void Start()
     {
+        Destroy(gameObject, lifeTime);
         //GetComponent<Rigidbody2D>().velocity = startDir;
     }
 

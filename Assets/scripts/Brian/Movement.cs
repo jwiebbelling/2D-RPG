@@ -5,10 +5,6 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     [SerializeField] KeybindsData Data;
-    [SerializeField] KeyCode up = KeyCode.W;
-    [SerializeField] KeyCode down = KeyCode.S;
-    [SerializeField] KeyCode left = KeyCode.A;
-    [SerializeField] KeyCode right = KeyCode.D;
     public float speed = 5;
     float ySpeed;
     float xSpeed;
