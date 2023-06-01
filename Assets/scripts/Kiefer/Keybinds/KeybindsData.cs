@@ -21,31 +21,31 @@ public class KeybindsData : ScriptableObject
         keybind.ToLower();
         switch (keybind)
         {
-            case "up":
+            case "Up":
                 return Up = key;
 
-            case "left":
+            case "Left":
                 return Left = key;
 
-            case "down":
+            case "Down":
                 return Down = key;
 
-            case "right":
+            case "Right":
                 return Right = key;
 
-            case "dash":
+            case "Dash":
                 return Dash = key;
 
-            case "shoot":
+            case "Shoot":
                 return Shoot = key;
 
-            case "reload":
+            case "Reload":
                 return Reload = key;
 
-            case "interact":
+            case "Interact":
                 return Interact = key;
 
-            case "usepowerup":
+            case "UsePowerUp":
                 return UsePowerUp = key;
 
             case "SwitchWeaponUp":

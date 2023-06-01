@@ -5,9 +5,11 @@ using UnityEngine.UI;
 
 public class ChangeKey : MonoBehaviour
 {
-    [SerializeField] Text text;
-    [SerializeField] KeybindsData keybinds;
-    [SerializeField] string keybind;
+    [SerializeField] private Text text;
+    [SerializeField] private KeybindsData keybinds;
+    [SerializeField] private string keybind;
+    [SerializeField] private GameObject inputField;
+    [SerializeField] private GameObject editKey;
 
     void Update()
     {
@@ -45,6 +47,12 @@ public class ChangeKey : MonoBehaviour
             case "UsePowerUp":
                 text.text = keybinds.UsePowerUp.ToString();
                 break;
+            case "SwitchWeaponUp":
+                text.text = keybinds.SwitchWeaponUp.ToString();
+                break;
+            case "SwitchWeaponDown":
+                text.text = keybinds.SwitchWeaponDown.ToString();
+                break;
 
             default:
                 break;
@@ -53,6 +61,9 @@ public class ChangeKey : MonoBehaviour
 
     public void OnButonPress()
     {
-        //GetKeyInput
+        editKey.SetActive(true);
+
+        inputField.GetComponent<GetKeyInput>().SetKeyBind(keybind);
+        inputField.GetComponent<GetKeyInput>().OnEditKey();
     }
 }

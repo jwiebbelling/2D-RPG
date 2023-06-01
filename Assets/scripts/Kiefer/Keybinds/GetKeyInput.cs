@@ -4,11 +4,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class GetKeyInput : MonoBehaviour
 {
-    [SerializeField] InputField input;
-    [SerializeField] KeybindsData keybinds;
-    public string keybind;
+    [SerializeField] private InputField input;
+    [SerializeField] private KeybindsData keybinds;
+    [SerializeField] private GameObject editKey;
+    [SerializeField] private Text keybindText;
+
+    private string keybind;
 
     public void OnEditKey()
     {
@@ -25,6 +29,13 @@ public class GetKeyInput : MonoBehaviour
                 keybinds.SetNewKey(keybind, keyCode);
             }
         }
+
+        input.text = "";
         input.DeactivateInputField();
+        editKey.SetActive(false);
+    }
+    public void SetKeyBind(string key)
+    {
+        keybind = key;
     }
 }
