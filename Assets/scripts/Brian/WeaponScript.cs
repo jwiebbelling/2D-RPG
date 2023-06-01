@@ -84,7 +84,7 @@ public class WeaponScript : MonoBehaviour
             attackTimer = attackTimer - 1 * Time.deltaTime;
         }
 
-        //Debug.Log(reloadingTimer + " RelTime Remaining");
+        Debug.Log(reloadingTimer + " RelTime Remaining");
     }
     void FireBullet()
     {
@@ -106,5 +106,11 @@ public class WeaponScript : MonoBehaviour
             ammo = ammo + spareAmmo;
             spareAmmo = spareAmmo - spareAmmo;
         }
+    }
+    public void DisableWeapon()
+    {
+        currentlyReloading = false;
+        reloadingTimer = 0;
+        gameObject.SetActive(false);
     }
 }
