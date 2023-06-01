@@ -39,7 +39,7 @@ public class WeaponSwitch : MonoBehaviour
             else
             {
                 weapons[i].SetActive(true);
-                Debug.Log(weapons[i].name);
+                //Debug.Log(weapons[i].name);
             }
         }
     }

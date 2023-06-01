@@ -40,7 +40,7 @@ public class WeaponScript : MonoBehaviour
                 {
                     canShoot = false;
                 }
-                Debug.Log("try shot");
+                //Debug.Log("try shot");
 
                 if (ammo <= 0)
                 {
@@ -51,7 +51,7 @@ public class WeaponScript : MonoBehaviour
                     FireBullet();
                 }
                 attackTimer = attackSpeed;
-                Debug.Log(ammo);
+                //Debug.Log(ammo);
             }
         }
         else if (!Input.GetKey(Data.Shoot))
@@ -63,7 +63,7 @@ public class WeaponScript : MonoBehaviour
             if (Input.GetKey(Data.Reload) && !currentlyReloading)
             {
                 currentlyReloading = true;
-                Debug.Log("Reloading");
+                //Debug.Log("Reloading");
                 reloadingTimer = reloadTime;
             }
             else if (reloadingTimer <= 0 && currentlyReloading)
@@ -84,14 +84,14 @@ public class WeaponScript : MonoBehaviour
             attackTimer = attackTimer - 1 * Time.deltaTime;
         }
 
-        Debug.Log(reloadingTimer + " RelTime Remaining");
+        //Debug.Log(reloadingTimer + " RelTime Remaining");
     }
     void FireBullet()
     {
         ammo = ammo - 1;
         GameObject spawnedBullet = Instantiate(bullet, new Vector2(gameObject.transform.position.x, gameObject.transform.position.y), Quaternion.identity);
         spawnedBullet.GetComponent<BulletScript>().setDir(gameObject.GetComponentInParent<PlayerRotation>().getDir());
-        Debug.Log("actual shot");
+        //Debug.Log("actual shot");
         
     }
     void AmmoReloading()
