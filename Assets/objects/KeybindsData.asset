@@ -21,3 +21,5 @@ MonoBehaviour:
   Reload: 114
   Interact: 101
   UsePowerUp: 32
+  SwitchWeaponUp: 273
+  SwitchWeaponDown: 274

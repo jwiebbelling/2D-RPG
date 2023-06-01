@@ -13,6 +13,8 @@ public class KeybindsData : ScriptableObject
     public KeyCode Reload;
     public KeyCode Interact;
     public KeyCode UsePowerUp;
+    public KeyCode SwitchWeaponUp;
+    public KeyCode SwitchWeaponDown;
 
     public KeyCode SetNewKey(string keybind, KeyCode key)
     {
@@ -45,6 +47,12 @@ public class KeybindsData : ScriptableObject
 
             case "usepowerup":
                 return UsePowerUp = key;
+
+            case "SwitchWeaponUp":
+                return SwitchWeaponUp = key;
+
+            case "SwitchWeaponDown":
+                return SwitchWeaponDown = key;
 
             default:
                 return KeyCode.None;
