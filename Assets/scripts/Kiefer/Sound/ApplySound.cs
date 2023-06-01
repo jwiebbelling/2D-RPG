@@ -13,6 +13,7 @@ public class ApplySound : MonoBehaviour
     public void EditVolume()
     {
         CalculateVolume();
+        SetAudio();
     }
     void CalculateVolume()
     {
@@ -23,8 +24,7 @@ public class ApplySound : MonoBehaviour
         else
         {
             volume = data.masterVolume * data.SFXVolume;
-        }
-        SetAudio();
+        } 
     }
 
     void SetAudio()

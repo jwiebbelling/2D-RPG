@@ -24,6 +24,10 @@ public class SliderApplySound : MonoBehaviour
         {
             slider.value = data.musicVolume;
         }
+        else
+        {
+            Debug.LogError("need to pick SFX, Master or Music");
+        }
     }
 
     void Update()
