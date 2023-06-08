@@ -10,7 +10,6 @@ public class GetKeyInput : MonoBehaviour
     [SerializeField] private InputField input;
     [SerializeField] private KeybindsData keybinds;
     [SerializeField] private GameObject editKey;
-    [SerializeField] private Text keybindText;
 
     private string keybind;
 
