@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 189549128}
   m_Layer: 0
   m_Name: Object
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -344,7 +344,7 @@ MonoBehaviour:
   player: {fileID: 1390954921}
   detectionRange: 5
   visableRange: {fileID: 373834777}
-  seeInfo: 0
+  seeInfo: 1
 --- !u!120 &326835053
 LineRenderer:
   m_ObjectHideFlags: 0

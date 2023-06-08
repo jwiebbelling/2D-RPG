@@ -22,7 +22,7 @@ public class EnemyMovement : MonoBehaviour
         distance = Vector2.Distance(gameObject.transform.position, player.transform.position);
         //Debug.Log(distance);
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, player.transform.position);
+        RaycastHit2D hit = Physics2D.Linecast(transform.position, player.transform.position);
         if (hit.collider != null)
         {
             Debug.Log(hit.collider.name);
