@@ -5,7 +5,6 @@ public class TeleportPlayer : MonoBehaviour
 {
     public Vector3 teleportPosition;
     public FadeEffect fadeEffect;
-    //45, -1.5, 0
     public void PerformTeleport()
     {
         StartCoroutine(TeleportCoroutine());
@@ -13,6 +12,8 @@ public class TeleportPlayer : MonoBehaviour
 
     private IEnumerator TeleportCoroutine()
     {
+        yield return new WaitForSeconds(2f);
+
         yield return StartCoroutine(fadeEffect.FadeOut());
 
         transform.position = teleportPosition;
