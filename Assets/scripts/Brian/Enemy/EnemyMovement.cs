@@ -25,7 +25,10 @@ public class EnemyMovement : MonoBehaviour
     {
         if (playerSeen)
         {
-            //Vector2 newPosition = Vector2.MoveTowards(transform.position, destination, Time.deltaTime * bulletSpeed);
+            Vector2 newPosition = Vector2.MoveTowards(transform.position, player.transform.position, Time.deltaTime * 10);
+            this.gameObject.GetComponent<Rigidbody2D>().MovePosition(newPosition);
+            Debug.Log(newPosition);
+            //Debug.Log(player.transform.position);
         }
 
 
@@ -95,6 +98,6 @@ public class EnemyMovement : MonoBehaviour
         {
             playerSeen = false;
         }
-        Debug.Log(timer);
+        //Debug.Log(timer);
     }
 }
