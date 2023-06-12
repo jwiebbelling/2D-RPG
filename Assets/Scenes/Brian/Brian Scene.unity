@@ -146,13 +146,13 @@ GameObject:
   - component: {fileID: 189549130}
   - component: {fileID: 189549129}
   - component: {fileID: 189549128}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Object
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &189549128
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -261,9 +261,9 @@ GameObject:
   - component: {fileID: 326835054}
   - component: {fileID: 326835052}
   - component: {fileID: 326835055}
-  - component: {fileID: 326835056}
+  - component: {fileID: 326835058}
   - component: {fileID: 326835057}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +346,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326835049}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9face7a375ff04243886077483fe2113, type: 3}
   m_Name: 
@@ -355,6 +355,9 @@ MonoBehaviour:
   detectionRange: 5
   visableRange: {fileID: 373834777}
   seeInfo: 1
+  ignoreLayerLinecast:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!120 &326835053
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -487,24 +490,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc845313eedb81548a698c67c864fe92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &326835056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 326835049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d7e2a055eb151543a5a791ee5d636d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 127824996}
-  speed: 2.5
-  avoidanceRadius: 2
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!58 &326835057
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -521,6 +506,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &326835058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326835049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96141c7d9ad0e794c8fbd2efbedb5c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 127824996}
+  speed: 2.5
 --- !u!1 &373834777
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,7 +530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 373834778}
   - component: {fileID: 373834779}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EnemyRange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -617,7 +616,7 @@ GameObject:
   - component: {fileID: 1059970482}
   - component: {fileID: 1059970481}
   - component: {fileID: 1059970480}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Object (1)
   m_TagString: Wall
   m_Icon: {fileID: 0}

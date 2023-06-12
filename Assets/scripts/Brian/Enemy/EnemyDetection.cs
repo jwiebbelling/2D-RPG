@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public class EnemyDetection : MonoBehaviour
 {
     [SerializeField] GameObject player;
     [SerializeField] float detectionRange;
     [SerializeField] GameObject visableRange;
     [SerializeField] bool seeInfo;
+    public LayerMask ignoreLayerLinecast;
     LineRenderer lineRenderer;
     float distance;
     bool targetPlayer = false;
@@ -29,6 +30,13 @@ public class EnemyMovement : MonoBehaviour
             //this.gameObject.GetComponent<Rigidbody2D>().MovePosition(newPosition);
             //Debug.Log(newPosition);
             //Debug.Log(player.transform.position);
+            this.GetComponent<EnemyMove>().enabled = true;
+            Debug.Log("PlayerSeen");
+        }
+        else
+        {
+            this.GetComponent<EnemyMove>().enabled = false;
+            this.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         }
 
 
@@ -38,9 +46,8 @@ public class EnemyMovement : MonoBehaviour
 
         distance = Vector2.Distance(gameObject.transform.position, player.transform.position);
         //Debug.Log(distance);
-
-        RaycastHit2D hit = Physics2D.Linecast(transform.position, player.transform.position);
-        if (hit.collider != null)
+        RaycastHit2D hit = Physics2D.Linecast(transform.position, player.transform.position, ~ignoreLayerLinecast);
+        if (hit.collider != null && hit.collider.gameObject != gameObject)
         {
             if (hit.collider.CompareTag("Wall"))
             {
