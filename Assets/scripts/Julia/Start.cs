@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Start : MonoBehaviour
 {
-    [SerializeField] private GameObject settings;
+    [SerializeField] private GameObject settings, main;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -19,5 +19,11 @@ public class Start : MonoBehaviour
     public void GoToSettings()
     {
         settings.SetActive(true);
+        main.SetActive(false);
+    }
+    public void SettingsGoBack()
+    {
+        settings.SetActive(false);
+        main.SetActive(true);
     }
 }
