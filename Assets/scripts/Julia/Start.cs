@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Start : MonoBehaviour
 {
-
+    [SerializeField] private GameObject settings, main;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -14,10 +14,16 @@ public class Start : MonoBehaviour
     }
     public void PlayGame()
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("Main");
     }
     public void GoToSettings()
     {
-        SceneManager.LoadScene("SettingsScene");
+        settings.SetActive(true);
+        main.SetActive(false);
+    }
+    public void SettingsGoBack()
+    {
+        settings.SetActive(false);
+        main.SetActive(true);
     }
 }
