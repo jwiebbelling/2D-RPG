@@ -103,6 +103,7 @@ MonoBehaviour:
   startDir: {x: 3, y: 3}
   bulletSpeed: 5
   lifeTime: 5
+  damage: 2
 --- !u!50 &2370968368409592899
 Rigidbody2D:
   serializedVersion: 4

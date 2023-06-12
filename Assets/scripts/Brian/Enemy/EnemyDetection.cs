@@ -26,10 +26,6 @@ public class EnemyDetection : MonoBehaviour
     {
         if (playerSeen)
         {
-            //Vector2 newPosition = Vector2.MoveTowards(transform.position, player.transform.position, Time.deltaTime * 5);
-            //this.gameObject.GetComponent<Rigidbody2D>().MovePosition(newPosition);
-            //Debug.Log(newPosition);
-            //Debug.Log(player.transform.position);
             this.GetComponent<EnemyMove>().enabled = true;
             Debug.Log("PlayerSeen");
         }

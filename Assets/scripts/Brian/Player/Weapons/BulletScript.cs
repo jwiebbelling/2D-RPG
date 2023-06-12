@@ -8,6 +8,7 @@ public class BulletScript : MonoBehaviour
     private Transform newTransform;
     [SerializeField] float bulletSpeed = 5;
     [SerializeField] float lifeTime = 5;
+    [SerializeField] int damage = 2;
 
     // Start is called before the first frame update
     void Start()
@@ -21,10 +22,18 @@ public class BulletScript : MonoBehaviour
     {
 
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log(collision.gameObject.name);
+        if (collision.gameObject.CompareTag("Enemy's"))
+        {
+            collision.GetComponent<EnemyStatus>().IsHit(damage);
+            Destroy(gameObject);
+        }
+        else if (collision.gameObject.CompareTag("Wall"))
+        {
+            Destroy(gameObject);
+        }
     }
     public void setDir(Vector2 direction)
     {
