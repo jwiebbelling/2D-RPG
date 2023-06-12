@@ -25,9 +25,9 @@ public class EnemyMovement : MonoBehaviour
     {
         if (playerSeen)
         {
-            Vector2 newPosition = Vector2.MoveTowards(transform.position, player.transform.position, Time.deltaTime * 10);
-            this.gameObject.GetComponent<Rigidbody2D>().MovePosition(newPosition);
-            Debug.Log(newPosition);
+            //Vector2 newPosition = Vector2.MoveTowards(transform.position, player.transform.position, Time.deltaTime * 5);
+            //this.gameObject.GetComponent<Rigidbody2D>().MovePosition(newPosition);
+            //Debug.Log(newPosition);
             //Debug.Log(player.transform.position);
         }
 

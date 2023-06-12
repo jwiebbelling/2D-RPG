@@ -129,6 +129,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 6657771816755575778}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &127824996 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6657771816713244547, guid: 31eabe2ca16addf4c8c2f8662d57583d,
+    type: 3}
+  m_PrefabInstance: {fileID: 6657771816755575778}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &189549127
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,9 +257,12 @@ GameObject:
   m_Component:
   - component: {fileID: 326835051}
   - component: {fileID: 326835050}
-  - component: {fileID: 326835052}
   - component: {fileID: 326835053}
   - component: {fileID: 326835054}
+  - component: {fileID: 326835052}
+  - component: {fileID: 326835055}
+  - component: {fileID: 326835056}
+  - component: {fileID: 326835057}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -337,7 +346,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 326835049}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9face7a375ff04243886077483fe2113, type: 3}
   m_Name: 
@@ -466,6 +475,52 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &326835055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326835049}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc845313eedb81548a698c67c864fe92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &326835056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326835049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7e2a055eb151543a5a791ee5d636d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 127824996}
+  speed: 2.5
+  avoidanceRadius: 2
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!58 &326835057
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326835049}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &373834777
 GameObject:
   m_ObjectHideFlags: 0
