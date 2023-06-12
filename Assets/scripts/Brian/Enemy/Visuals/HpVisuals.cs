@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HpVisuals : MonoBehaviour
 {
-    [SerializeField] GameObject enemy;
+    [SerializeField] GameObject host;
+    [SerializeField] GameObject hpFill;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,10 +16,11 @@ public class HpVisuals : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = enemy.transform.position + new Vector3(0, 1, 0);
+        transform.position = host.transform.position + new Vector3(0, 0.75f, 0);
+        hpFill.GetComponent<Image>().fillAmount = host.GetComponent<EnemyStatus>().getHp();
     }
     public void SetHostEnemy(GameObject hostEnemy)
     {
-        enemy = hostEnemy;
+        host = hostEnemy;
     }
 }

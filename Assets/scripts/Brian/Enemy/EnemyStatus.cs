@@ -32,4 +32,8 @@ public class EnemyStatus : MonoBehaviour
             currentHP =- damage; 
         }
     }
+    public float getHp()
+    {
+        return (1.00f / MaxHP * currentHP);
+    }
 }
