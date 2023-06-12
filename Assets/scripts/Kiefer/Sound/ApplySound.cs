@@ -3,14 +3,21 @@ using UnityEngine;
 public class ApplySound : MonoBehaviour
 {
     [SerializeField] AudioSource audioSource;
-    [SerializeField] bool Music, Master;
+    [SerializeField] bool Music, SFX;
     public AudioData data;
     private float volume;
-    void Start()
+    private void Start()
+    {
+        if (audioSource == null)
+        {
+            audioSource = gameObject.GetComponent<AudioSource>();
+        }
+    }
+    void Update()
     {
         EditVolume();
     }
-    public void EditVolume()
+    void EditVolume()
     {
         CalculateVolume();
         SetAudio();

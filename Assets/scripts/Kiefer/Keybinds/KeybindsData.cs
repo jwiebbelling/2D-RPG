@@ -57,6 +57,5 @@ public class KeybindsData : ScriptableObject
             default:
                 return KeyCode.None;
         }
-
     }
 }
