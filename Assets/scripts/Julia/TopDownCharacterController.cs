@@ -8,7 +8,6 @@ namespace Cainos.PixelArtTopDown_Basic
     {
         public float speed;
         public float interactionDistance = 2f; // Increase the interaction range here
-
         private Animator animator;
         private bool isInteracting = false;
         [SerializeField] private KeybindsData keybinds;
@@ -74,9 +73,9 @@ namespace Cainos.PixelArtTopDown_Basic
 
                     // Call the interaction method on the NPC
                     npc.Interact();
-
-                    // You can add any other logic here for the interaction
-
+                    // Perform the player teleportation
+                    TeleportPlayer teleportPlayer = GetComponent<TeleportPlayer>();
+                    teleportPlayer.PerformTeleport();
                     // Unfreeze the player's movement after the interaction is complete
                     isInteracting = false;
 
