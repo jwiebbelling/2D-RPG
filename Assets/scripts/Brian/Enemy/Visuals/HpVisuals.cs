@@ -17,6 +17,7 @@ public class HpVisuals : MonoBehaviour
     void Update()
     {
         transform.position = host.transform.position + new Vector3(0, 0.75f, 0);
+        //Debug.Log(host.GetComponent<EnemyStatus>().getHp());
         hpFill.GetComponent<Image>().fillAmount = host.GetComponent<EnemyStatus>().getHp();
     }
     public void SetHostEnemy(GameObject hostEnemy)

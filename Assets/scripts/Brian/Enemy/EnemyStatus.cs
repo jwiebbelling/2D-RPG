@@ -29,11 +29,11 @@ public class EnemyStatus : MonoBehaviour
         }
         else 
         { 
-            currentHP =- damage; 
+            currentHP -= damage; 
         }
     }
     public float getHp()
     {
-        return (1.00f / MaxHP * currentHP);
+        return (1.000f / MaxHP * currentHP);
     }
 }
