@@ -303,9 +303,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d5fefcd705a8d4192b6e8525ce8f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keybinds: {fileID: 0}
-  inputField: {fileID: 0}
-  editKey: {fileID: 0}
+  keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  inputField: {fileID: 23159138}
+  editKey: {fileID: 1125618887}
 --- !u!1 &19204860
 GameObject:
   m_ObjectHideFlags: 0
@@ -1550,9 +1550,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d5fefcd705a8d4192b6e8525ce8f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keybinds: {fileID: 0}
-  inputField: {fileID: 0}
-  editKey: {fileID: 0}
+  keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  inputField: {fileID: 23159138}
+  editKey: {fileID: 1125618887}
 --- !u!1 &298336879
 GameObject:
   m_ObjectHideFlags: 0
@@ -2426,9 +2426,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d5fefcd705a8d4192b6e8525ce8f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keybinds: {fileID: 0}
-  inputField: {fileID: 0}
-  editKey: {fileID: 0}
+  keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  inputField: {fileID: 23159138}
+  editKey: {fileID: 1125618887}
 --- !u!1 &591342735
 GameObject:
   m_ObjectHideFlags: 0
@@ -3118,9 +3118,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d5fefcd705a8d4192b6e8525ce8f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keybinds: {fileID: 0}
-  inputField: {fileID: 0}
-  editKey: {fileID: 0}
+  keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  inputField: {fileID: 23159138}
+  editKey: {fileID: 1125618887}
 --- !u!1 &770568371
 GameObject:
   m_ObjectHideFlags: 0
@@ -3664,9 +3664,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d5fefcd705a8d4192b6e8525ce8f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keybinds: {fileID: 0}
-  inputField: {fileID: 0}
-  editKey: {fileID: 0}
+  keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  inputField: {fileID: 23159138}
+  editKey: {fileID: 1125618887}
 --- !u!1 &1006073588
 GameObject:
   m_ObjectHideFlags: 0
@@ -3713,9 +3713,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d5fefcd705a8d4192b6e8525ce8f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keybinds: {fileID: 0}
-  inputField: {fileID: 0}
-  editKey: {fileID: 0}
+  keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  inputField: {fileID: 23159138}
+  editKey: {fileID: 1125618887}
 --- !u!1 &1011071759
 GameObject:
   m_ObjectHideFlags: 0
@@ -3762,9 +3762,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d5fefcd705a8d4192b6e8525ce8f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keybinds: {fileID: 0}
-  inputField: {fileID: 0}
-  editKey: {fileID: 0}
+  keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  inputField: {fileID: 23159138}
+  editKey: {fileID: 1125618887}
 --- !u!1 &1044941296
 GameObject:
   m_ObjectHideFlags: 0
@@ -4907,9 +4907,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d5fefcd705a8d4192b6e8525ce8f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keybinds: {fileID: 0}
-  inputField: {fileID: 0}
-  editKey: {fileID: 0}
+  keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  inputField: {fileID: 23159138}
+  editKey: {fileID: 1125618887}
 --- !u!1 &1464816376
 GameObject:
   m_ObjectHideFlags: 0
@@ -5722,9 +5722,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d5fefcd705a8d4192b6e8525ce8f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keybinds: {fileID: 0}
-  inputField: {fileID: 0}
-  editKey: {fileID: 0}
+  keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  inputField: {fileID: 23159138}
+  editKey: {fileID: 1125618887}
 --- !u!1 &1667585661
 GameObject:
   m_ObjectHideFlags: 0
@@ -6189,9 +6189,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d5fefcd705a8d4192b6e8525ce8f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keybinds: {fileID: 0}
-  inputField: {fileID: 0}
-  editKey: {fileID: 0}
+  keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  inputField: {fileID: 23159138}
+  editKey: {fileID: 1125618887}
 --- !u!1 &1795369811
 GameObject:
   m_ObjectHideFlags: 0
@@ -6238,9 +6238,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d5fefcd705a8d4192b6e8525ce8f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keybinds: {fileID: 0}
-  inputField: {fileID: 0}
-  editKey: {fileID: 0}
+  keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  inputField: {fileID: 23159138}
+  editKey: {fileID: 1125618887}
 --- !u!1 &1807982601
 GameObject:
   m_ObjectHideFlags: 0
