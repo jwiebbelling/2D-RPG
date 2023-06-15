@@ -207,7 +207,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 976349675}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -3661,12 +3661,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 976349673}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90f82340054ca654f944045996cebdd4, type: 3}
+  m_Script: {fileID: 11500000, guid: 86aab6efadf266642ac9750912646eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keybinds: {fileID: 0}
-  inputField: {fileID: 0}
-  editKey: {fileID: 0}
+  keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  inputField: {fileID: 23159138}
+  editKey: {fileID: 1125618887}
 --- !u!1 &1006073588
 GameObject:
   m_ObjectHideFlags: 0
