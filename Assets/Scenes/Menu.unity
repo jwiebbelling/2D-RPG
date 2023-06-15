@@ -207,7 +207,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 976349675}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -300,7 +300,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 12680460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
+  m_Script: {fileID: 11500000, guid: c8bea98025e000948a9bb06d9052a449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
@@ -929,7 +929,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 725839722}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -1547,7 +1547,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 256194268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
+  m_Script: {fileID: 11500000, guid: c8bea98025e000948a9bb06d9052a449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
@@ -1637,7 +1637,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 557860627}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -2423,7 +2423,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 557860625}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
+  m_Script: {fileID: 11500000, guid: c8bea98025e000948a9bb06d9052a449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
@@ -3115,7 +3115,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 725839720}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
+  m_Script: {fileID: 11500000, guid: c8bea98025e000948a9bb06d9052a449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
@@ -3661,7 +3661,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 976349673}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
+  m_Script: {fileID: 11500000, guid: c8bea98025e000948a9bb06d9052a449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
@@ -3710,7 +3710,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1006073588}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
+  m_Script: {fileID: 11500000, guid: c8bea98025e000948a9bb06d9052a449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
@@ -3759,7 +3759,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1011071759}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
+  m_Script: {fileID: 11500000, guid: c8bea98025e000948a9bb06d9052a449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
@@ -4904,7 +4904,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1445827553}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
+  m_Script: {fileID: 11500000, guid: c8bea98025e000948a9bb06d9052a449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
@@ -5719,7 +5719,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1658267660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
+  m_Script: {fileID: 11500000, guid: c8bea98025e000948a9bb06d9052a449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
@@ -6186,7 +6186,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1790402656}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
+  m_Script: {fileID: 11500000, guid: c8bea98025e000948a9bb06d9052a449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
@@ -6235,7 +6235,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1795369811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
+  m_Script: {fileID: 11500000, guid: c8bea98025e000948a9bb06d9052a449, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
@@ -7244,7 +7244,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1445827555}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
