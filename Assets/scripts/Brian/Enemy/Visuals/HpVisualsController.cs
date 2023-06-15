@@ -25,6 +25,7 @@ public class HpVisualsController : MonoBehaviour
             GameObject HpVisual = Instantiate(hpBar, obj.transform.position + new Vector3(0, 0.5f, 0), Quaternion.identity);
             HpVisual.transform.SetParent(transform);
             HpVisual.GetComponent<HpVisuals>().SetHostEnemy(obj.gameObject);
+            obj.GetComponent<EnemyStatus>().SetVisualObj(HpVisual);
         }
     }
 }

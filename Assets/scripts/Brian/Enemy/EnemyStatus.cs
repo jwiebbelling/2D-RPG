@@ -7,6 +7,7 @@ public class EnemyStatus : MonoBehaviour
     [SerializeField] int MaxHP = 5;
     [SerializeField] int attackDamage = 1;
     [SerializeField] int attackSpeed = 1;
+    GameObject attatchedVisuals;
     int currentHP;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,7 @@ public class EnemyStatus : MonoBehaviour
     {
         if (currentHP == 0)
         {
-            Debug.Log("dead");
+            dead();
         }
     }
 
@@ -45,5 +46,15 @@ public class EnemyStatus : MonoBehaviour
     public int GetAttackSpd()
     {
         return (attackSpeed);
+    }
+
+    void dead()
+    {
+        Destroy(gameObject);
+        Destroy(attatchedVisuals);
+    }
+    public void SetVisualObj(GameObject obj)
+    {
+        attatchedVisuals = obj;
     }
 }
