@@ -135,18 +135,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6657771816755575778}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &127825002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127824990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 946d138f6e21517449e1fe396244dcb0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &189549127
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,11 +1617,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6657771816256529117, guid: 31eabe2ca16addf4c8c2f8662d57583d,
-        type: 3}
-      propertyPath: maxAmmo
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 6657771816713244547, guid: 31eabe2ca16addf4c8c2f8662d57583d,
         type: 3}
       propertyPath: m_RootOrder
