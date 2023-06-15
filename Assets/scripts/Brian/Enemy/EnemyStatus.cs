@@ -5,6 +5,8 @@ using UnityEngine;
 public class EnemyStatus : MonoBehaviour
 {
     [SerializeField] int MaxHP = 5;
+    [SerializeField] int attackDamage = 1;
+    [SerializeField] int attackSpeed = 1;
     int currentHP;
     // Start is called before the first frame update
     void Start()
@@ -35,5 +37,13 @@ public class EnemyStatus : MonoBehaviour
     public float getHp()
     {
         return (1.000f / MaxHP * currentHP);
+    }
+    public int GetAttackDmg()
+    {
+        return (attackDamage);
+    }
+    public int GetAttackSpd()
+    {
+        return (attackSpeed);
     }
 }
