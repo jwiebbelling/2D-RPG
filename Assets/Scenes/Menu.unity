@@ -207,7 +207,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 976349675}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -929,7 +929,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 725839722}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -1637,7 +1637,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 557860627}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -7244,7 +7244,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1445827555}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -7442,8 +7442,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad290a2816c3c0f45ab7f5f5a7c0a88e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurKeyBinds: {fileID: 0}
-  DefKeyBinds: {fileID: 0}
+  currentKeybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
+  defaultKeybinds: {fileID: 11400000, guid: 63a0e44554284ea448e3abfc2504a5f3, type: 2}
 --- !u!1 &2030513636
 GameObject:
   m_ObjectHideFlags: 0
