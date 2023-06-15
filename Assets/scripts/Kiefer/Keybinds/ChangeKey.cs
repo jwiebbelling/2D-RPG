@@ -1,16 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ChangeKey : MonoBehaviour
 {
-    [SerializeField] private Text text;
     [SerializeField] private KeybindsData keybinds;
-    [SerializeField] private string keybind;
     [SerializeField] private GameObject inputField;
     [SerializeField] private GameObject editKey;
 
+    private Text text;
+    private string keybind;
+
+    private void Start()
+    {
+        keybind = gameObject.name;
+
+        Text text = transform.Find("Button/ButtonText").gameObject.GetComponent<Text>();
+    }
     void Update()
     {
         ChangeText(keybind);
