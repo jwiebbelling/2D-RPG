@@ -3,9 +3,9 @@ using UnityEngine.UI;
 
 public class ChangeKey : MonoBehaviour
 {
-    [SerializeField] private KeybindsData keybinds;
-    [SerializeField] private GameObject inputField;
-    [SerializeField] private GameObject editKey;
+    [SerializeField] KeybindsData keybinds;
+    [SerializeField] GameObject inputField;
+    [SerializeField] GameObject editKey;
 
     private Text text;
     private string keybind;
