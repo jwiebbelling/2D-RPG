@@ -207,7 +207,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 976349675}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -266,7 +266,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 12680461}
-  - component: {fileID: 12680462}
   m_Layer: 0
   m_Name: Interact
   m_TagString: Untagged
@@ -291,18 +290,6 @@ Transform:
   m_Father: {fileID: 1614507486}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &12680462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 12680460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &19204860
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +913,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 725839722}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -1510,7 +1497,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 256194269}
-  - component: {fileID: 256194270}
   m_Layer: 0
   m_Name: UsePowerUp
   m_TagString: Untagged
@@ -1535,18 +1521,6 @@ Transform:
   m_Father: {fileID: 1614507486}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &256194270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 256194268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &298336879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1631,7 +1605,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 557860627}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -2383,7 +2357,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 557860626}
-  - component: {fileID: 557860627}
   m_Layer: 0
   m_Name: Left
   m_TagString: Untagged
@@ -2408,18 +2381,6 @@ Transform:
   m_Father: {fileID: 1614507486}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &557860627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 557860625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &591342735
 GameObject:
   m_ObjectHideFlags: 0
@@ -2853,7 +2814,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 12680462}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -3072,7 +3033,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 725839721}
-  - component: {fileID: 725839722}
   m_Layer: 0
   m_Name: Right
   m_TagString: Untagged
@@ -3097,18 +3057,6 @@ Transform:
   m_Father: {fileID: 1614507486}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &725839722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725839720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &770568371
 GameObject:
   m_ObjectHideFlags: 0
@@ -3429,7 +3377,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1790402658}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -3615,7 +3563,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 976349674}
-  - component: {fileID: 976349675}
   m_Layer: 0
   m_Name: Up
   m_TagString: Untagged
@@ -3640,21 +3587,6 @@ Transform:
   m_Father: {fileID: 1614507486}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &976349675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 976349673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 706c44488f30a8948942422c8d850873, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  input: {fileID: 0}
-  keybinds: {fileID: 0}
-  editKey: {fileID: 0}
 --- !u!1 &1006073588
 GameObject:
   m_ObjectHideFlags: 0
@@ -3664,7 +3596,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1006073589}
-  - component: {fileID: 1006073590}
   m_Layer: 0
   m_Name: SwitchWeaponDown
   m_TagString: Untagged
@@ -3689,18 +3620,6 @@ Transform:
   m_Father: {fileID: 1614507486}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1006073590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006073588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1011071759
 GameObject:
   m_ObjectHideFlags: 0
@@ -3710,7 +3629,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1011071760}
-  - component: {fileID: 1011071761}
   m_Layer: 0
   m_Name: Dash
   m_TagString: Untagged
@@ -3735,18 +3653,6 @@ Transform:
   m_Father: {fileID: 1614507486}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1011071761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011071759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1044941296
 GameObject:
   m_ObjectHideFlags: 0
@@ -4852,7 +4758,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1445827554}
-  - component: {fileID: 1445827555}
   m_Layer: 0
   m_Name: Down
   m_TagString: Untagged
@@ -4877,18 +4782,6 @@ Transform:
   m_Father: {fileID: 1614507486}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1445827555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1445827553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1464816376
 GameObject:
   m_ObjectHideFlags: 0
@@ -5245,7 +5138,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1006073590}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -5664,7 +5557,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1658267661}
-  - component: {fileID: 1658267662}
   m_Layer: 0
   m_Name: Reload
   m_TagString: Untagged
@@ -5689,18 +5581,6 @@ Transform:
   m_Father: {fileID: 1614507486}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1658267662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1658267660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1667585661
 GameObject:
   m_ObjectHideFlags: 0
@@ -6069,7 +5949,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1658267662}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -6128,7 +6008,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1790402657}
-  - component: {fileID: 1790402658}
   m_Layer: 0
   m_Name: Shoot
   m_TagString: Untagged
@@ -6153,18 +6032,6 @@ Transform:
   m_Father: {fileID: 1614507486}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1790402658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790402656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1795369811
 GameObject:
   m_ObjectHideFlags: 0
@@ -6174,7 +6041,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1795369812}
-  - component: {fileID: 1795369813}
   m_Layer: 0
   m_Name: SwitchWeaponUp
   m_TagString: Untagged
@@ -6199,18 +6065,6 @@ Transform:
   m_Father: {fileID: 1614507486}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1795369813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795369811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1807982601
 GameObject:
   m_ObjectHideFlags: 0
@@ -6295,7 +6149,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1795369813}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -6589,7 +6443,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1011071761}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -7214,7 +7068,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1445827555}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
@@ -7412,6 +7266,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad290a2816c3c0f45ab7f5f5a7c0a88e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurKeyBinds: {fileID: 0}
+  DefKeyBinds: {fileID: 0}
 --- !u!1 &2030513636
 GameObject:
   m_ObjectHideFlags: 0
@@ -7944,7 +7800,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 256194270}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeKey, Assembly-CSharp
         m_MethodName: OnButonPress
         m_Mode: 1
