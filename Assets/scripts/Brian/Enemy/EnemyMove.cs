@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyMove : MonoBehaviour
 {
     public Transform target;
-    public float speed = 5f;
+    float speed = 2.5f;
     float curSpeed;
     float attackCd;
 
@@ -13,6 +13,7 @@ public class EnemyMove : MonoBehaviour
 
     private void Start()
     {
+        speed = gameObject.GetComponent<EnemyStatus>().GetMovementSpeed();
         curSpeed = speed;
         rb = GetComponent<Rigidbody2D>();
     }
@@ -48,8 +49,8 @@ public class EnemyMove : MonoBehaviour
     {
         if (collision.gameObject == target.gameObject && attackCd <= 0)
         {
-            collision.gameObject.GetComponent<PlayerStatus>().GetHit(gameObject.GetComponent<EnemyStatus>().GetAttackDmg());
-            attackCd = gameObject.GetComponent<EnemyStatus>().GetAttackDmg();
+            collision.gameObject.GetComponent<PlayerStatus>().IsHit(gameObject.GetComponent<EnemyStatus>().GetAttackDmg());
+            attackCd = gameObject.GetComponent<EnemyStatus>().GetAttackSpd();
         }
         else
         {

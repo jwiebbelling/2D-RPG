@@ -16,9 +16,28 @@ public class PlayerStatus : MonoBehaviour
     void Update()
     {
         Debug.Log(currHp);
+        if (currHp == 0)
+        {
+            Dead();
+        }
     }
-    public void GetHit(int damage)
+    public void IsHit(int damage)
     {
-        currHp -= damage;
+        if (currHp - damage < 0)
+        {
+            currHp = 0;
+        }
+        else
+        {
+            currHp -= damage;
+        }
+    }
+    public float GetHp()
+    {
+        return 1.000f / maxHp * currHp;
+    }
+    void Dead()
+    {
+        Destroy(gameObject);
     }
 }

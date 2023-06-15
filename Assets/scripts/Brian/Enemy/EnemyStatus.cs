@@ -7,6 +7,8 @@ public class EnemyStatus : MonoBehaviour
     [SerializeField] int MaxHP = 5;
     [SerializeField] int attackDamage = 1;
     [SerializeField] int attackSpeed = 1;
+    [SerializeField] float detectionRange = 2.5f;
+    [SerializeField] float movementSpeed = 2.5f;
     GameObject attatchedVisuals;
     int currentHP;
     // Start is called before the first frame update
@@ -56,5 +58,13 @@ public class EnemyStatus : MonoBehaviour
     public void SetVisualObj(GameObject obj)
     {
         attatchedVisuals = obj;
+    }
+    public float GetDetectionRange()
+    {
+        return detectionRange;
+    }
+    public float GetMovementSpeed()
+    {
+        return movementSpeed;
     }
 }

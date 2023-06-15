@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyDetection : MonoBehaviour
 {
     [SerializeField] GameObject player;
-    [SerializeField] float detectionRange;
+    float detectionRange;
     [SerializeField] GameObject visableRange;
     [SerializeField] bool seeInfo;
     public LayerMask ignoreLayerLinecast;
@@ -19,6 +19,7 @@ public class EnemyDetection : MonoBehaviour
     void Start()
     {
         lineRenderer = gameObject.GetComponent<LineRenderer>();
+        detectionRange = gameObject.GetComponent<EnemyStatus>().GetDetectionRange();
     }
 
     // Update is called once per frame
