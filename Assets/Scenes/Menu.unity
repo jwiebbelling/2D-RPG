@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 3784855}
   - component: {fileID: 3784854}
   m_Layer: 0
-  m_Name: Button (Legacy)
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -303,9 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 770568373}
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
-  keybind: Interact
   inputField: {fileID: 23159138}
   editKey: {fileID: 1125618887}
 --- !u!1 &19204860
@@ -860,7 +858,7 @@ GameObject:
   - component: {fileID: 175716078}
   - component: {fileID: 175716077}
   m_Layer: 0
-  m_Name: Button (Legacy)
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1552,9 +1550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 190572829}
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
-  keybind: UsePowerUp
   inputField: {fileID: 23159138}
   editKey: {fileID: 1125618887}
 --- !u!1 &298336879
@@ -1570,7 +1566,7 @@ GameObject:
   - component: {fileID: 298336882}
   - component: {fileID: 298336881}
   m_Layer: 0
-  m_Name: Button (Legacy)
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2430,9 +2426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 1388701876}
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
-  keybind: Left
   inputField: {fileID: 23159138}
   editKey: {fileID: 1125618887}
 --- !u!1 &591342735
@@ -2797,7 +2791,7 @@ GameObject:
   - component: {fileID: 638868679}
   - component: {fileID: 638868678}
   m_Layer: 0
-  m_Name: Button (Legacy)
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3124,9 +3118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 1419031914}
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
-  keybind: Right
   inputField: {fileID: 23159138}
   editKey: {fileID: 1125618887}
 --- !u!1 &770568371
@@ -3378,7 +3370,7 @@ GameObject:
   - component: {fileID: 830187790}
   - component: {fileID: 830187789}
   m_Layer: 0
-  m_Name: Button (Legacy)
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3672,9 +3664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 1155520558}
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
-  keybind: Up
   inputField: {fileID: 23159138}
   editKey: {fileID: 1125618887}
 --- !u!1 &1006073588
@@ -3723,9 +3713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 2117521267}
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
-  keybind: SwitchWeaponDown
   inputField: {fileID: 23159138}
   editKey: {fileID: 1125618887}
 --- !u!1 &1011071759
@@ -3774,9 +3762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 33136768}
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
-  keybind: Dash
   inputField: {fileID: 23159138}
   editKey: {fileID: 1125618887}
 --- !u!1 &1044941296
@@ -4921,9 +4907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 645848845}
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
-  keybind: Down
   inputField: {fileID: 23159138}
   editKey: {fileID: 1125618887}
 --- !u!1 &1464816376
@@ -5211,7 +5195,7 @@ GameObject:
   - component: {fileID: 1563582056}
   - component: {fileID: 1563582055}
   m_Layer: 0
-  m_Name: Button (Legacy)
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5738,9 +5722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 1837335085}
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
-  keybind: Reload
   inputField: {fileID: 23159138}
   editKey: {fileID: 1125618887}
 --- !u!1 &1667585661
@@ -6040,7 +6022,7 @@ GameObject:
   - component: {fileID: 1777664294}
   - component: {fileID: 1777664293}
   m_Layer: 0
-  m_Name: Button (Legacy)
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6207,9 +6189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 1892045355}
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
-  keybind: Shoot
   inputField: {fileID: 23159138}
   editKey: {fileID: 1125618887}
 --- !u!1 &1795369811
@@ -6258,9 +6238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0832df4fdbd3a458b1f8eef7ce888c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 609026965}
   keybinds: {fileID: 11400000, guid: 547890aa41dc65e4799e24f4056ca852, type: 2}
-  keybind: SwitchWeaponUp
   inputField: {fileID: 23159138}
   editKey: {fileID: 1125618887}
 --- !u!1 &1807982601
@@ -6276,7 +6254,7 @@ GameObject:
   - component: {fileID: 1807982604}
   - component: {fileID: 1807982603}
   m_Layer: 0
-  m_Name: Button (Legacy)
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6570,7 +6548,7 @@ GameObject:
   - component: {fileID: 1839624894}
   - component: {fileID: 1839624893}
   m_Layer: 0
-  m_Name: Button (Legacy)
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7195,7 +7173,7 @@ GameObject:
   - component: {fileID: 1970682516}
   - component: {fileID: 1970682515}
   m_Layer: 0
-  m_Name: Button (Legacy)
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7927,7 +7905,7 @@ GameObject:
   - component: {fileID: 2104415124}
   - component: {fileID: 2104415123}
   m_Layer: 0
-  m_Name: Button (Legacy)
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

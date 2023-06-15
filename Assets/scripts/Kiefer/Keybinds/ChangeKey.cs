@@ -10,11 +10,11 @@ public class ChangeKey : MonoBehaviour
     private Text text;
     private string keybind;
 
-    private void Start()
+    private void Awake()
     {
         keybind = gameObject.name;
 
-        Text text = transform.Find("Button/ButtonText").gameObject.GetComponent<Text>();
+        text = transform.Find("Button/ButtonText").gameObject.GetComponent<Text>();
     }
     void Update()
     {
